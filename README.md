@@ -914,64 +914,6 @@ class Mahasiswa extends Person {
 
 ```php
 <?php
-// Definisi kelas Dosen yang merupakan turunan dari Person
-class Dosen extends Person {
-
-    // Properti public untuk menyimpan NIDN (Nomor Induk Dosen Nasional)
-    public $NIDN;
-
-    // Konstruktor kelas Dosen, menerima $name dan $NIDN
-    public function __construct($name, $NIDN){
-        // Memanggil konstruktor dari kelas induk (Person) untuk menginisialisasi $name
-        parent::__construct($name);
-        // Menginisialisasi properti $NIDN
-        $this->NIDN = $NIDN;
-    }
-
-    // Override metode getName untuk menambahkan keterangan "Nama Dosen"
-    public function getName() {
-        return "Nama Dosen: " .$this->name;
-    }
-
-    // Metode untuk mendapatkan NIDN dosen
-    public function getNIDN() {
-        return "NIDN Dosen: " .$this->NIDN;
-    }
-
-    // Override metode getRole untuk menampilkan role sebagai "Dosen"
-    public function getRole() {
-        return " Role : Dosen <br>";
-    }
-}
-
-// Definisi kelas Mahasiswa yang merupakan turunan dari Person
-class Mahasiswa extends Person {
-
-    // Properti public untuk menyimpan NIM (Nomor Induk Mahasiswa)
-    public $NIM;
-
-    // Konstruktor kelas Mahasiswa, menerima $name dan $NIM
-    public function __construct($name, $NIM){
-        // Memanggil konstruktor dari kelas induk (Person) untuk menginisialisasi $name
-        parent::__construct($name);
-        // Menginisialisasi properti $NIM
-        $this->NIM = $NIM;
-    }
-
-    // Override metode getName untuk menambahkan keterangan "Nama Mahasiswa"
-    public function getName() {
-        return "Nama Mahasiswa: " .$this->name;
-    }
-
-    // Metode untuk mendapatkan NIM mahasiswa
-    public function getNIM() {
-        return "NIM Mahasiswa: " .$this->NIM;
-    }
-
-    // Override metode getRole untuk menampilkan role sebagai "Mahasiswa"
-    public function getRole() {
-        return " Role : Mahasiswa";
-    }
 }// Definisi kelas Dosen yang merupakan turunan dari Person
 class Dosen extends Person {
 
