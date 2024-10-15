@@ -317,8 +317,8 @@ class Mahasiswa {
 
    - Mendemonstrasikan akses ke atribut melalui
 metode getter dan setter : <br>
-```
-php
+
+```php
 <?php
 // Mengubah nama mahasiswa (Encapsulation)
 echo "<h2>Encapsulation</h2>";
