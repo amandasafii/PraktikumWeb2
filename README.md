@@ -781,10 +781,8 @@ echo "<br>";
 ```
 
 - Hasil semua Coding class Encapsulation: <br><br>
-![image](https://github.com/user-attachments/assets/acfa107a-5e5b-4b40-8302-fb7cfbcb6d15)
-<br>
-![image](https://github.com/user-attachments/assets/a21a19c0-26f9-49ca-a6c2-cca0490f6717)
-<br><br>
+![image](https://github.com/user-attachments/assets/acfa107a-5e5b-4b40-8302-fb7cfbcb6d15)<br>
+![image](https://github.com/user-attachments/assets/a21a19c0-26f9-49ca-a6c2-cca0490f6717)<br><br>
 - Tampilan Output Encapsulation : <br><br>
 ![image](https://github.com/user-attachments/assets/b4cdd367-2d21-4ad5-8021-79d5ab5c7b82)<br><br>
 
