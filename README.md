@@ -712,10 +712,8 @@ echo $teacher1->getName() . " ID Guru: " . $teacher1->getteacherID();
 ?>
 ```
 - Hasil semua Coding class Polymorphism: <br><br>
-![image](https://github.com/user-attachments/assets/201603c6-2c9e-4937-a51d-b6ec2ab288e5)
-<br>
-![image](https://github.com/user-attachments/assets/eb3b0973-857e-4772-b6da-ee57e40a7630)
-<br><br>
+![image](https://github.com/user-attachments/assets/201603c6-2c9e-4937-a51d-b6ec2ab288e5)<br>
+![image](https://github.com/user-attachments/assets/eb3b0973-857e-4772-b6da-ee57e40a7630)<br><br>
 - Tampilan Output Polymorphism : <br><br>
 
 ![image](https://github.com/user-attachments/assets/2ce24d64-5878-4f0b-b40f-0fd35b154059)<br><br>
@@ -841,8 +839,7 @@ echo $offlineCourse->getCourseDetails();
 ```
 
 - Hasil semua Coding class Abstraction: <br><br>
-![image](https://github.com/user-attachments/assets/fd79e8ab-a814-4caa-945c-141efd391767)
-<br><br>
+![image](https://github.com/user-attachments/assets/fd79e8ab-a814-4caa-945c-141efd391767)<br><br>
 - Tampilan Output Class Abstraction : <br>
 ![image](https://github.com/user-attachments/assets/7b54b1af-9440-47d2-b971-44ff56b47b01)<br><br>
 
